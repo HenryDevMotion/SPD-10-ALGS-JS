@@ -47,4 +47,13 @@ function mostrarEvolucao() {
 
     let percentual = ((feitos / habitosSemanais.length) * 100).toFixed(2);
     console.log(`\nEvolução da semana: ${percentual}% concluído.`);
+
+// Teste:
+
+// diaDaSemana("terça");
+// diaDaSemana("domingo");
+// diaDaSemana("feriado");
+
+// mostrarEvolucao();
+
 }
